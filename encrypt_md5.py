@@ -4,4 +4,4 @@ password = str(input("Password: "))
 
 hashed_password = hashlib.md5(password.encode()).hexdigest()
 
-print(hashed_password)
+print("Your Password as MD5: " + hashed_password)
